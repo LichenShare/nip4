@@ -58,6 +58,16 @@
 
   <releases>
 
+    <release version="9.2.1" date="2026-10-01">
+      <description>
+        <p>
+
+          Bugfix release.
+
+        </p>
+      </description>
+    </release>
+
     <release version="9.2.0" date="2026-09-20">
       <description>
         <p>
