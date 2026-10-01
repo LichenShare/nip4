@@ -1,5 +1,10 @@
 ## master
 
+## 9.2.1 2026/10/01
+
+- deep copy of MODIFY image args
+- only cache imageinfo that we've opened for input
+
 ## 9.2.0 2026/09/20
 
 - add Colour > CICP menu item

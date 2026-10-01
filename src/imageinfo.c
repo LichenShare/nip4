@@ -543,7 +543,6 @@ imageinfo_new(Imageinfogroup *imageinfogroup,
 	 */
 	imageinfo->image = image;
 
-	icontainer_child_add(ICONTAINER(imageinfogroup), ICONTAINER(imageinfo), -1);
 	imageinfo_proxy_add(imageinfo);
 
 	return imageinfo;
@@ -866,6 +865,9 @@ imageinfo_new_input(Imageinfogroup *imageinfogroup, GtkWindow *window,
 	}
 
 	imageinfo_attach_check(imageinfo);
+
+	// add to imageinfogroup cache
+	icontainer_child_add(ICONTAINER(imageinfogroup), ICONTAINER(imageinfo), -1);
 
 	return imageinfo;
 }
