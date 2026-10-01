@@ -39,7 +39,7 @@ A 10,000 node workspace that computes per-voxel Patlaks from PET-CT scans.
 
 # Installing
 
-## Windows and macOS
+## Windows
 
 Look in [releases](releases), pick a version, then download
 (for example) `nip4-x64-9.1.5.zip` to get version 9.1.5 for x64 windows.
@@ -72,7 +72,11 @@ so you might need to use Terminal.app, or set `XDG_DATA_DIRS` by hand.
 
 ## Linux-like systems with flatpak
 
-Add flathub to your set of repositories:
+Visit the nip4 page on flathub and click "Install":
+
+https://flathub.org/en/apps/org.libvips.nip4
+
+Alternatively, add flathub to your set of repositories:
 
 ```shell
 flatpak remote-add --if-not-exists \
